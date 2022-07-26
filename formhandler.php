@@ -6,13 +6,13 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'info@mywebsite.com';
+$email_from = 'info@meek-centaur-0b7aa5.netlify.app.com';
 
 $email_subject = 'New Form Submission';
 
 $email_body = "User Name: $fname.\n".
                 "User Name: $lname.\n".
-                "User email: $visitors_email.\n".
+                "User email: $visitor_email.\n".
                 "Subject: $name.\n".
                 "User Message: $name.\n";
 
